@@ -12,4 +12,5 @@ ENV STACK_ROOT=/root/.stack
 RUN mkdir -p /root/.stack && echo "\n\nallow-different-user: true\n" > /root/.stack/config.yaml
 
 RUN stack setup
-RUN stack build
+# RUN stack build
+
